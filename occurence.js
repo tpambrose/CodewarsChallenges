@@ -2,19 +2,20 @@
 
 // What if the string is empty? Then the result should be empty object literal, `{}`.
  
-function countOccurences(str){
-    let newStr={};
+// function countOccurences(str){
+//     let newStr={};
    
-    for(let char of str){
-        if(str===''){
-            return {}
-        }
-        if(newStr[char]){
-            newStr[char]++
-        }
-        else{
-           newStr[char]=1;
-       }
-    }
-    return newStr
-}
+//     for(let char of str){
+//         if(str===''){
+//             return {}
+//         }
+//         if(newStr[char]){
+//             newStr[char]++
+//         }
+//         else{
+//            newStr[char]=1;
+//        }
+//     }
+//     return newStr
+// }
+
